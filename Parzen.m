@@ -1,8 +1,8 @@
 clear all;
 clc;
 
-n_ = 86;  % Please change n to reproduce results for n = 86
-h_ = .275;  % Please change h to reproduce results for h = 0.275, 0.1
+n_ = 86;  % n = 86 was tested.
+h_ = .275;  % h = 0.275 and 0.1 were tested.
 
 dataset = readmatrix('path/to/dataset/');
 
