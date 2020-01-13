@@ -13,8 +13,6 @@ rng('default')  % For reproducibility
 classNum = 8;
 
 dim = 100;
-dim = dimReduced;
-
 means = zeros(classNum, dim, 6);
 C = zeros(dim, dim, classNum, 6);
 priors = zeros(classNum, 6);
@@ -37,7 +35,7 @@ dataClass = D(:,1);
 dataPatterns = D(:,[2:end-1]);
 dataRowCount = size(dataPatterns, 1);
 
-%% Parzen
+% Parzen
 testClass = T(:,1);
 testPatterns = T(:,[2:end,]);
 testRowCount = size(testPatterns, 1);
