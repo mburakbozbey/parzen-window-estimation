@@ -31,7 +31,7 @@ For each class, we can compare resulting pdfs’ multiplied by prior probabiliti
 
                                                     𝑔𝑖 (𝑥⃗) = 𝑙𝑛 𝑃(𝑥⃗ | 𝑤𝑖 ) + 𝑙𝑛 𝑃(𝑤𝑖 )
                                                     
-After iterating over all classes’ resulting if, 𝑔𝑖 (𝑥⃗) > 𝑔𝑗 (𝑥⃗), then we assign x to the class 𝑤𝑖. On a **private dataset**, recall and precision for 𝑇𝑖 set:
+After iterating over all classes’ resulting if, 𝑔𝑖 (𝑥⃗) > 𝑔𝑗 (𝑥⃗), then we assign x to the class 𝑤𝑖. On a **private dataset**, recall and precision for test set:
 
 <p align="center">
   <img src="https://i.ibb.co/tsn16VG/6.png">
