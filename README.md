@@ -36,3 +36,6 @@ After iterating over all classes’ resulting if, 𝑔𝑖 (𝑥⃗) > 𝑔𝑗 
 <p align="center">
   <img src="https://i.ibb.co/tsn16VG/6.png">
 </p>
+
+## Note: 
+For overall comparison of algorithms on same **private dataset** please visit [Hierarchical Clustering with SVM](https://github.com/mburakbozbey/hierarchical-clustering-with-svm) repository.
